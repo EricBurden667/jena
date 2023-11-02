@@ -45,7 +45,7 @@
     <dependency>
       <groupId>org.apache.jena</groupId>
       <artifactId>jena-jdbc-driver-mem</artifactId>
-      <version>4.9.0-SNAPSHOT</version>
+      <version>4.9.0</version>
     </dependency>
     <dependency>
       <groupId>org.apache.jena</groupId>
@@ -55,7 +55,7 @@
     <dependency>
       <groupId>org.apache.jena</groupId>
       <artifactId>jena-jdbc-driver-tdb</artifactId>
-      <version>4.9.0-SNAPSHOT</version>
+      <version>4.9.0</version>
     </dependency>
 
     <!-- Test Dependencies -->
@@ -67,7 +67,7 @@
     <dependency>
       <groupId>org.apache.jena</groupId>
       <artifactId>jena-jdbc-driver-mem</artifactId>
-      <version>4.9.0-SNAPSHOT</version>
+      <version>4.9.0</version>
       <classifier>tests</classifier>
       <scope>test</scope>
     </dependency>
@@ -81,7 +81,7 @@
     <dependency>
       <groupId>org.apache.jena</groupId>
       <artifactId>jena-jdbc-driver-tdb</artifactId>
-      <version>4.9.0-SNAPSHOT</version>
+      <version>4.9.0</version>
       <classifier>tests</classifier>
       <scope>test</scope>
     </dependency>
@@ -109,8 +109,8 @@
         <artifactId>maven-shade-plugin</artifactId>
         <configuration>
           <transformers>
-            <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer" />
-            <transformer implementation="org.apache.maven.plugins.shade.resource.ApacheLicenseResourceTransformer" />
+            <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
+            <transformer implementation="org.apache.maven.plugins.shade.resource.ApacheLicenseResourceTransformer"/>
             <transformer implementation="org.apache.maven.plugins.shade.resource.ApacheNoticeResourceTransformer">
               <addHeader>false</addHeader>
             </transformer>
