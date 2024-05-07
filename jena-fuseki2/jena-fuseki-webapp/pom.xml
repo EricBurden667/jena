@@ -38,13 +38,13 @@
     <dependency>
       <groupId>org.apache.jena</groupId>
       <artifactId>jena-fuseki-core</artifactId>
-      <version>4.9.0-SNAPSHOT</version>
+      <version>4.10.0</version>
     </dependency>
 
     <dependency>
       <groupId>org.apache.jena</groupId>
       <artifactId>jena-fuseki-core</artifactId>
-      <version>4.9.0-SNAPSHOT</version>
+      <version>4.10.0</version>
       <classifier>tests</classifier>
       <scope>test</scope>
     </dependency>
