@@ -71,7 +71,7 @@
     <ver.jetty>10.0.15</ver.jetty>
     <ver.shiro>1.11.0</ver.shiro>
 
-    <ver.protobuf>3.23.2</ver.protobuf>
+    <ver.protobuf>3.25.5</ver.protobuf>
     <ver.libthrift>0.18.1</ver.libthrift>
 
     <!-- JSON-LD 1.1 -->
@@ -845,7 +845,7 @@
              </goals>
              <configuration combine.self="override">
                <rules>
-                 <dependencyConvergence />
+                 <dependencyConvergence/>
                  <requirePluginVersions>
                    <message>Best practice is to always define plugin versions!</message>
                    <banLatest>true</banLatest>
@@ -1095,7 +1095,7 @@
                      </goals>
                    </pluginExecutionFilter>
                    <action>
-                     <ignore />
+                     <ignore/>
                    </action>
                  </pluginExecution>
                  <pluginExecution>
@@ -1112,7 +1112,7 @@
                      </goals>
                    </pluginExecutionFilter>
                    <action>
-                     <ignore />
+                     <ignore/>
                    </action>
                  </pluginExecution>
                  
@@ -1130,7 +1130,7 @@
                      </goals>
                    </pluginExecutionFilter>
                    <action>
-                     <ignore />
+                     <ignore/>
                    </action>
                  </pluginExecution>
 
@@ -1144,7 +1144,7 @@
                      </goals>
                    </pluginExecutionFilter>
                    <action>
-                     <ignore />
+                     <ignore/>
                    </action>
                  </pluginExecution>
                  
