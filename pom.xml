@@ -94,7 +94,7 @@
 
     <ver.shaded-guava>32.0.0-jre</ver.shaded-guava>
     <ver.gson>2.10.1</ver.gson>
-    <ver.commonsio>2.11.0</ver.commonsio>
+    <ver.commonsio>2.14.0</ver.commonsio>
     <ver.commonscli>1.5.0</ver.commonscli>
     <ver.commonslang3>3.12.0</ver.commonslang3>
     <ver.commonsrdf>0.5.0</ver.commonsrdf>
@@ -845,7 +845,7 @@
              </goals>
              <configuration combine.self="override">
                <rules>
-                 <dependencyConvergence />
+                 <dependencyConvergence/>
                  <requirePluginVersions>
                    <message>Best practice is to always define plugin versions!</message>
                    <banLatest>true</banLatest>
@@ -1095,7 +1095,7 @@
                      </goals>
                    </pluginExecutionFilter>
                    <action>
-                     <ignore />
+                     <ignore/>
                    </action>
                  </pluginExecution>
                  <pluginExecution>
@@ -1112,7 +1112,7 @@
                      </goals>
                    </pluginExecutionFilter>
                    <action>
-                     <ignore />
+                     <ignore/>
                    </action>
                  </pluginExecution>
                  
@@ -1130,7 +1130,7 @@
                      </goals>
                    </pluginExecutionFilter>
                    <action>
-                     <ignore />
+                     <ignore/>
                    </action>
                  </pluginExecution>
 
@@ -1144,7 +1144,7 @@
                      </goals>
                    </pluginExecutionFilter>
                    <action>
-                     <ignore />
+                     <ignore/>
                    </action>
                  </pluginExecution>
                  
