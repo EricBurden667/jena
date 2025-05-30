@@ -821,7 +821,7 @@
        <dependency>
          <groupId>commons-beanutils</groupId>
          <artifactId>commons-beanutils</artifactId>
-         <version>1.9.4</version>
+         <version>1.11.0</version>
        </dependency>
 
        <!-- END jena geosparql -->
@@ -845,7 +845,7 @@
              </goals>
              <configuration combine.self="override">
                <rules>
-                 <dependencyConvergence />
+                 <dependencyConvergence/>
                  <requirePluginVersions>
                    <message>Best practice is to always define plugin versions!</message>
                    <banLatest>true</banLatest>
@@ -1095,7 +1095,7 @@
                      </goals>
                    </pluginExecutionFilter>
                    <action>
-                     <ignore />
+                     <ignore/>
                    </action>
                  </pluginExecution>
                  <pluginExecution>
@@ -1112,7 +1112,7 @@
                      </goals>
                    </pluginExecutionFilter>
                    <action>
-                     <ignore />
+                     <ignore/>
                    </action>
                  </pluginExecution>
                  
@@ -1130,7 +1130,7 @@
                      </goals>
                    </pluginExecutionFilter>
                    <action>
-                     <ignore />
+                     <ignore/>
                    </action>
                  </pluginExecution>
 
@@ -1144,7 +1144,7 @@
                      </goals>
                    </pluginExecutionFilter>
                    <action>
-                     <ignore />
+                     <ignore/>
                    </action>
                  </pluginExecution>
                  
